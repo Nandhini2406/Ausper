@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5DE8C32A03B72200FCB074 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DE8C22A03B72200FCB074 /* SignUpViewController.swift */; };
 		4F85EA722A0113960090107C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85EA712A0113960090107C /* AppDelegate.swift */; };
 		4F85EA742A0113960090107C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85EA732A0113960090107C /* SceneDelegate.swift */; };
 		4F85EA762A0113960090107C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85EA752A0113960090107C /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		4F85EA7E2A0113980090107C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F85EA7C2A0113980090107C /* LaunchScreen.storyboard */; };
 		4F85EA892A0113980090107C /* AusperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85EA882A0113980090107C /* AusperTests.swift */; };
 		4F85EA942A0113980090107C /* AusperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85EA932A0113980090107C /* AusperUITests.swift */; };
+		4FD981272A0280B6002128AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD981262A0280B6002128AD /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F5DE8C22A03B72200FCB074 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4F85EA6E2A0113960090107C /* Ausper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ausper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F85EA712A0113960090107C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F85EA732A0113960090107C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		4F85EA8F2A0113980090107C /* AusperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AusperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F85EA932A0113980090107C /* AusperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AusperUITests.swift; sourceTree = "<group>"; };
 		4F85EA952A0113980090107C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD981262A0280B6002128AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				4F85EA712A0113960090107C /* AppDelegate.swift */,
 				4F85EA732A0113960090107C /* SceneDelegate.swift */,
 				4F85EA752A0113960090107C /* ViewController.swift */,
+				4FD981262A0280B6002128AD /* HomeViewController.swift */,
 				4F85EA772A0113960090107C /* Main.storyboard */,
+				4F5DE8C22A03B72200FCB074 /* SignUpViewController.swift */,
 				4F85EA7A2A0113980090107C /* Assets.xcassets */,
 				4F85EA7C2A0113980090107C /* LaunchScreen.storyboard */,
 				4F85EA7F2A0113980090107C /* Info.plist */,
@@ -207,7 +213,7 @@
 				};
 			};
 			buildConfigurationList = 4F85EA692A0113960090107C /* Build configuration list for PBXProject "Ausper" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -261,6 +267,8 @@
 				4F85EA762A0113960090107C /* ViewController.swift in Sources */,
 				4F85EA722A0113960090107C /* AppDelegate.swift in Sources */,
 				4F85EA742A0113960090107C /* SceneDelegate.swift in Sources */,
+				4FD981272A0280B6002128AD /* HomeViewController.swift in Sources */,
+				4F5DE8C32A03B72200FCB074 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
